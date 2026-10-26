@@ -13,7 +13,9 @@ try:
 #devolver valores
     min_val, max_val, med_val = estadisticas(num1, num2, num3)
 #Resultados
-    print("\n--- Resultados ---")
     print(f"O valor mínimo é: {min_val}")
     print(f"O valor máximo é: {max_val}")
     print(f"A media é: {med_val}")
+
+except:
+    print("ERROR GENÉRICO!!")
